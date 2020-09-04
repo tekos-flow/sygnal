@@ -19,10 +19,10 @@
 #
 # Example SQLite configuration:
 #
-#database:
-#  name: sqlite3
-#  args:
-#    dbfile: /path/to/database.db
+database:
+  name: sqlite3
+  args:
+    dbfile: /sygnal.db
 #
 #
 # Example Postgres configuration:
@@ -234,9 +234,9 @@ apps:
 
   # This is an example GCM/FCM push configuration.
   #
-  #com.example.myapp.android:
-  #  type: gcm
-  #  api_key: your_api_key_for_gcm
+  com.example.myapp.android:
+    type: gcm
+    api_key: your_api_key_for_gcm
   #  # This is the maximum number of connections to GCM servers at any one time
   #  # the default is 20.
   #  #max_connections: 20
