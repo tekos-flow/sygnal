@@ -236,7 +236,7 @@ apps:
   #
   com.example.myapp.android:
     type: gcm
-    api_key: your_api_key_for_gcm
+    api_key: AAAA0NqLGM8:APA91bGuochKO1byoN7RvTAbsknKkNUVpwM3uIkbgAjs1SyJr0O7hKIHoag5vB4xwhzAcGUddZoB6SxIqdKersHRqJkgQTRgIqMQMr8A58ZyiG_T7Jqpj7MuhuCUQHhuSn5tQXPD-jCq
   #  # This is the maximum number of connections to GCM servers at any one time
   #  # the default is 20.
   #  #max_connections: 20
